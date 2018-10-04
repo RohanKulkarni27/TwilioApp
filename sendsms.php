@@ -11,7 +11,7 @@ $message = $twilio->messages
                   ->create("+15512259238", // to 
                            array( 
                                "from" => "+18086989616",       
-                               "body" => "Hello" 
+                               "body" => "Hello From Rohan CS643 fall 2018" 
                            ) 
                   ); 
  echo "Message send. Check the device";
