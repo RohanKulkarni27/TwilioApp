@@ -5,5 +5,5 @@ header("content-type:text/xml");
 ?>
 
 <Response>
-    <Message>Hello <?php echo $body ?></Message>
+    <Message>Hello</Message>
 </Response> 
