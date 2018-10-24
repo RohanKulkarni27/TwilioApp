@@ -1,6 +1,6 @@
 <?php
 $number = $_POST['From'];
-$body = "Rohan,23,week 1";
+$body = $_POST['Body'];
 $splitValues = explode(',',$body);
 $name = $splitValues[0];
 $weekNumber = $splitValues[2];
