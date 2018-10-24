@@ -1,14 +1,89 @@
 <?php
 $number = $_POST['From'];
 $body = $_POST['Body'];
-if($body=='Rohan'){
-    $responseText = 'Mr. Rohan';
+$splitValues = explode(',',$body);
+$name = $splitValues[0];
+$weekNumber = $splitValues[1];
+$responseText="";
+if($weekNumber=='week 1'){
+    $responseText = $responseText+'Recommended exercises:- Yoga, walking , jogging, pilates';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
 }
-else if($body=='Gayatri'){
-    $responseText = 'Ms. Gayatri';
+else if($weekNumber=='week 2'){
+    $responseText = $responseText+'Recommended exercises:- Yoga, walking , jogging, pilates';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
 }
-else if($body=='Ashutosh'){
-    $responseText = 'Mr. Ashutosh';
+else if($weekNumber=='week 3'){
+    $responseText = $responseText+'Recommended exercises:- Yoga, walking , jogging, pilates';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
+}
+else if($weekNumber=='week 4'){
+    $responseText = $responseText+'Recommended exercises:- Yoga, lunges, squats';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
+}
+else if($weekNumber=='week 5'){
+    $responseText = $responseText+'Recommended exercises:- Yoga, lunges, squats';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
+}
+else if($weekNumber=='week 6'){
+    $responseText = $responseText+'Recommended exercises:- Yoga, lunges, squats';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
+}
+else if($weekNumber=='week 7'){
+    $responseText = $responseText+'Recommended exercises:- Slow Walking,yoga';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
+}
+else if($weekNumber=='week 8'){
+    $responseText = $responseText+'Recommended exercises:- Slow Walking,yoga';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
+}
+else if($weekNumber=='week 9'){
+    $responseText = $responseText+'Recommended exercises:- Slow Walking,yoga';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
+}
+else if($weekNumber=='week 10'){
+    $responseText = $responseText+'Recommended exercises:- Slow Walking,yoga';
+    $responseText = $responseText +'Recommended medicines:- For pain:Tylenol
+    Constipation: Metamucil, Colace, Citracel, Milk of Magnesia, Dulcolax
+    Indigestion and heart burn: Tums, Maalox, Mylanta, Pepcid 
+    Cold: Benadryl, Sudafed, Afrin nasal spray, Claratin, Robitussin DM, Vicks Formula 44, Halls cough drops. 
+    Flu: Tamiflu';
 }
 header("content-type:text/xml");
 ?>
